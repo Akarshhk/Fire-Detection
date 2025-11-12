@@ -41,3 +41,4 @@ def lambda_handler(event, context):
         sns.publish(TopicArn=TOPIC_ARN, Message=msg)
 
     return {"label":label,"risk":r}
+#AWS
